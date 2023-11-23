@@ -40,12 +40,7 @@ def click():
         btn.place(x=random.randint(1,150), y=random.randint(1,170))
         bf.place(x=random.randint(1,150), y=random.randint(1,170))
     if clicks >= 1000:
-        text["fg"] = "Blue"
-        text["text"] = f"Количество кликов:{clicks}"
-        btn["bg"] = "black"
-        btn["border"] = 2
-        root["bg"] = "black"
-        text["bg"] = "black"
+        text["text"] = f"Ну типу победа но играй дальше Количество кликов:{clicks}"
         btn.place(x=random.randint(1,150), y=random.randint(1,170))
         bf.place(x=random.randint(1,150), y=random.randint(1,170))
 def clear():
