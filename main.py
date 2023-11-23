@@ -46,7 +46,7 @@ def click():
 def clear():
     global clicks,add
     clicks = 0
-    add += 1
+    add += 10
     bf.place(x=10000,y=10000)
 root = Tk()
 root["bg"] = "black"
